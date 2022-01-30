@@ -1,3 +1,3 @@
-# Adventure Game
+# Adventure Game: The Sunless Citadel
 
-A work in progress ... plot/theme/story to be determined
+Initial idea is to remake the Sunless Citadel D&D module as a text-based adventure game (with some modifications that make it less based on random chance).
