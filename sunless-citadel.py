@@ -1,5 +1,5 @@
-from room_classes import Room
-
+from things import Location, Room, Item
+from persons import Person
 
 def load():
     return
