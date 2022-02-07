@@ -1,3 +1,6 @@
-# Adventure Game: The Sunless Citadel
+# Adventure Game: Free a Family Imprisoned by an Evil Sorcerer
 
-Initial idea is to remake the Sunless Citadel D&D module as a text-based adventure game (with some modifications that make it less based on random chance).
+A game inspired by Zork. Collect the keepsakes in the mansion without dying to free the family. Still a work in progress...
+
+### WARNING: 
+`./game_files` contains spoilers for the game!
