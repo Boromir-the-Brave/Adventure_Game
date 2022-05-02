@@ -1,0 +1,23 @@
+{
+    "rooms": [
+        {
+            "id": "house_front_yard",
+            "type": "room",
+            "desc": "The front yard of the house is overgrown. The grass has grown tall after years of not being cut. A stone path leads to the PORCH.",
+            "details": "nothing found upon closer inspection",
+            "neighbors": ["house_road", "porch", "house_back_yard"]
+        },
+        {
+            "id": "porch",
+            "type": "room",
+            "desc": "TODO",
+            "neighbors": ["house_front_yard", "entrance"]
+        },
+        {
+            "id": "",
+            "type": "room",
+            "desc": "",
+            "neighbors": []
+        }
+    ]
+}
