@@ -1,7 +1,8 @@
-from things import Location, Room, Item
+from things import Room, Item
 from persons import Person
 from load import load_game, save_game, create_save
 from errors import Quit
+from game_create import build_rooms, generate_items
 
 from pathlib import Path
 
@@ -47,11 +48,22 @@ def game_start() -> int:
 
 
 def build_game():
-    game_file = Path("./game_files/game_file.txt")
+    # game_file = Path("./game_files/game_file.txt")
 
-    print(game_file)
-    with open(game_file, 'r') as f:
+    # print(game_file)
+    # with open(game_file, 'r') as f:
+    #     pass
+    rooms = build_rooms()
+    items = generate_items()
+
+    for r in rooms:
+        # TODO: connect rooms together
         pass
+
+    for i in items:
+        # TODO: place items in rooms
+        pass
+    
     return
 
 
